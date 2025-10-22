@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>余舍員工服務系統</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon-512.png" type="image/png">
   <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbyH1msJ0U_PljM3jfOErnEtKlEhci4lzRrnV869_-mwnZ93deF-uoM-7M73EtXTvQAl/exec">
   <style>
     body {
