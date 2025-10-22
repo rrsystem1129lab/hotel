@@ -6,26 +6,32 @@
   <title>余舍員工服務系統</title>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icon-512.png" type="image/png">
-  <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbyH1msJ0U_PljM3jfOErnEtKlEhci4lzRrnV869_-mwnZ93deF-uoM-7M73EtXTvQAl/exec">
+  <meta name="theme-color" content="#0A2342" />
   <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      height: 100%;
       background: #0A2342;
       color: #E8A038;
       font-family: "Microsoft JhengHei", sans-serif;
-      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
     }
-    h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
-    p { color: #fff; font-size: 1rem; }
-  </style>
-</head>
-<body>
-  <div>
-    <h1>余舍員工服務系統</h1>
-    <p>正在前往系統入口...</p>
-  </div>
-</body>
-</html>
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      opacity: 0;
+      animation: fadeIn 1.8s ease forwards;
+    }
+    .logo img {
+      width: 120px;
+      height: 120px;
+      border-radius: 28px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+      margin-bottom: 20px;
+    }
+    .logo h1 {
+      font-
